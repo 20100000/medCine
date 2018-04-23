@@ -15,6 +15,30 @@ export const PAGES_MENU = [
         }
       },
       {
+        path: 'paciente',
+        data: {
+          menu: {
+            title: 'Paciente',
+            icon: 'ion-person',
+            selected: false,
+            expanded: false,
+            order: 0
+          }
+        }
+      },
+      {
+        path: 'agenda',
+        data: {
+          menu: {
+            title: 'Agenda',
+            icon: 'ion-calendar',
+            selected: false,
+            expanded: false,
+            order: 0
+          }
+        }
+      },
+      {
         path: 'editors',
         data: {
           menu: {
